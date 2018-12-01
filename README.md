@@ -68,3 +68,18 @@ gradle clean test --stacktrace
 
 Please note: the results of the tests after execution can be found on \gk_web_automation\build\reports
 
+## Tests scripts written, what do they do?
+
+For the demonstration of this assessment, two testcases have been written which are grouped into **landingPage** and **womenColor**.
+
+- **landingPage**: Navigates to http://automationpractice.com and verifies that the menu and the search field are visible from the landing page
+- **womenColor**: - Navigates to http://automationpractice.com,
+                  clicks on the Women menu link, 
+                  validates that it has landed successfully on the link clicked by asserting the Women page header, 
+                  clicks on the color passed from the dataprovider e.g. Orange,
+                  verifies that the filtered color has been applied successfully.
+                  
+
+## Last words
+
+Even though much effort has been put into completing, adding more and documenting as much this project, I do acknowledge that I might have missed a lot of key points and requirements. I'd be glad to answer questions, concerns or provide clarity on this assessment to the best of my ability.
