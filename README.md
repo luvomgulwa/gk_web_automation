@@ -82,4 +82,4 @@ For the demonstration of this assessment, two testcases have been written which 
 
 ## Last words
 
-Even though much effort has been put into completing, adding more and documenting as much this project, I do acknowledge that I might have missed a lot of key points and requirements. I'd be glad to answer questions, concerns or provide clarity on this assessment to the best of my ability.
+Even though much effort has been put into completing, adding more and documenting as much in this project, I do acknowledge that I might have missed a lot of key points and requirements. I'd be glad to answer questions, concerns or provide clarity on this assessment to the best of my ability.
