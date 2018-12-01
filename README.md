@@ -44,6 +44,7 @@ Please follow the instruction from https://docs.gradle.org/current/userguide/ins
 - The prject has two test groups (more on this later), therefore to execute a specific group, run the following command:
   ```
   gradle clean execute_tests -P testGroup=womenColor --stacktrace
+  gradle clean execute_tests -P testGroup=landingPage --stacktrace
   ```
 
 Please note, the group name can be replaced by another specific group name that needs to be executed at that point.
@@ -63,4 +64,7 @@ gradle clean test --stacktrace
 - **modules**: Classes from this directory contain logic and assertions from the page objects
 - **pages**: Classes from this directory deal with web elements and interaction with the browser
 - **utils**: Classes from here provide common resuable functionality across the framework
+- **GK_Tests**: This class contains the actual method tests annotated with testng's @Test
+
+Please note: the results of the tests after execution can be found on \gk_web_automation\build\reports
 
