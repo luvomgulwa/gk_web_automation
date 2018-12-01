@@ -21,7 +21,9 @@ public class DataProviderObject {
     public Object[][] filterColor() {
         return new Object[][] {
                 {"Test_01", "chrome", "Women", "Orange"},
-                {"Test_02", "chrome", "Women", "Black"}
+                {"Test_02", "chrome", "Women", "Black"},
+                {"Test_03", "chrome", "Women", "Blue"},
+                {"Test_04", "chrome", "Women", "Yellow"}
         };
     }
 }
