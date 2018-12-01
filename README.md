@@ -30,18 +30,18 @@ Please follow the instruction from https://docs.gradle.org/current/userguide/ins
 
 #### Cloning the project
 
-* From Windows explorer, navigate to the location the project will exist/run from
-* Open Gitbash/CLI of your choice, ensure the locationm is the one you wish to run the project from
-* Run the following command:
+- From Windows explorer, navigate to the location the project will exist/run from
+- Open Gitbash/CLI of your choice, ensure the locationm is the one you wish to run the project from
+- Run the following command:
   ```
   git clone https://github.com/luvomgulwa/gk_web_automation.git
   ```
-* Once the project has finished cloning, navigate to the root folder of the project with Gitbash/CLI of your choice
+- Once the project has finished cloning, navigate to the root folder of the project with Gitbash/CLI of your choice
 
 #### Running the tests
 
-* Assuming you still have Gitbash/CLI of your choice open to the root of the project, if not, please navigate to the root of the project
-* The prject has two test groups (more on this later), therefore to execute a specific group, run the following command:
+- Assuming you still have Gitbash/CLI of your choice open to the root of the project, if not, please navigate to the root of the project
+- The prject has two test groups (more on this later), therefore to execute a specific group, run the following command:
   ```
   gradle clean execute_tests -P testGroup=womenColor --stacktrace
   ```
@@ -57,4 +57,10 @@ Run the following command:
 gradle clean test --stacktrace
 ```
 
-## Project structure
+## Project structure breakdown
+
+- **webdrivers**: This directory contains browser drivers like chromedriver
+- **modules**: Classes from this directory contain logic and assertions from the page objects
+- **pages**: Classes from this directory deal with web elements and interaction with the browser
+- **utils**: Classes from here provide common resuable functionality across the framework
+
